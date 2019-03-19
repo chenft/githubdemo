@@ -123,7 +123,7 @@ class _ReleasePageState extends State<ReleasePage> with AutomaticKeepAliveClient
   @override
   Widget build(BuildContext context) {
     super.build(context); // See AutomaticKeepAliveClientMixin.
-    String url = _getUrl();
+    // String url = _getUrl();
     return new Scaffold(
       backgroundColor: Color(GSYColors.mainBackgroundColor),
       appBar: new AppBar(

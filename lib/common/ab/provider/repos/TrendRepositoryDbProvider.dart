@@ -5,7 +5,6 @@ import 'package:gsy_github_app_flutter/common/utils/CodeUtils.dart';
 import 'package:flutter/foundation.dart';
 import 'package:gsy_github_app_flutter/common/ab/SqlProvider.dart';
 import 'package:gsy_github_app_flutter/common/model/TrendingRepoModel.dart';
-import 'package:gsy_github_app_flutter/common/utils/CodeUtils.dart';
 import 'package:sqflite/sqflite.dart';
 
 /**

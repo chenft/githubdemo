@@ -69,7 +69,7 @@ class _WebViewState extends State<WebView> {
         // We prevent text selection by intercepting long press event.
         // This is a temporary workaround to prevent a native crash on a second
         // text selection.
-        // TODO(amirh): remove this when the selection handles crash is resolved.
+        // TODOs : (amirh): remove this when the selection handles crash is resolved.
         // https://github.com/flutter/flutter/issues/21239
         onLongPress: () {},
         child: AndroidView(
